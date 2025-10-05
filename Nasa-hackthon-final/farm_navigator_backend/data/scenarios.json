@@ -1,0 +1,404 @@
+[
+  {
+    "id": 1,
+    "title": "Optimizing Irrigation in Punjab",
+    "location": "Punjab, India",
+    "coordinates": { "lat": 30.90, "lon": 75.85 },
+    "description": "Use NASA SMAP soil moisture data to optimize wheat irrigation timing and reduce water waste.",
+    "difficulty": "easy",
+    "initial_state": {
+      "temperature": 28,
+      "soil_moisture": 45,
+      "crop_health": 70,
+      "livestock_health": 80,
+      "budget": 5000
+    },
+    "datasets": [
+      "SMAP",
+      "GPM"
+    ],
+    "goal": {
+      "description": "Reduce irrigation by 20% without lowering wheat yield below 4 t/ha"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Flood-Resistant Rice Planting",
+    "location": "Dhaka, Bangladesh",
+    "coordinates": { "lat": 23.81, "lon": 90.41 },
+    "description": "Adjust rice planting windows using MODIS flood data to avoid peak flooding periods.",
+    "difficulty": "easy",
+    "initial_state": {
+      "temperature": 32,
+      "soil_moisture": 85,
+      "crop_health": 65,
+      "livestock_health": 75,
+      "budget": 3500
+    },
+    "datasets": [
+      "MODIS",
+      "GPM"
+    ],
+    "goal": {
+      "description": "Plant rice to avoid 2 weeks of peak flooding while maintaining yield"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Drought Planning in Kenya",
+    "location": "Turkana, Kenya",
+    "coordinates": { "lat": 3.12, "lon": 35.60 },
+    "description": "Manage water resources using NASA SMAP and NDVI data during dry spells.",
+    "difficulty": "easy",
+    "initial_state": {
+      "temperature": 35,
+      "soil_moisture": 25,
+      "crop_health": 40,
+      "livestock_health": 50,
+      "budget": 2500
+    },
+    "datasets": [
+      "SMAP",
+      "MODIS NDVI"
+    ],
+    "goal": {
+      "description": "Keep 70% of crops alive during drought conditions"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Heatwave Readiness in California Vineyards",
+    "location": "Napa Valley, USA",
+    "coordinates": { "lat": 38.30, "lon": -122.29 },
+    "description": "Use ECOSTRESS temperature data to reduce heat stress impacts on grapes during heatwaves.",
+    "difficulty": "easy",
+    "initial_state": {
+      "temperature": 38,
+      "soil_moisture": 35,
+      "crop_health": 55,
+      "livestock_health": 70,
+      "budget": 8000
+    },
+    "datasets": [
+      "ECOSTRESS",
+      "MODIS LST"
+    ],
+    "goal": {
+      "description": "Reduce heat stress impacts on grapes during 1-week heatwave"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Rainfall Prediction for Maize in Nigeria",
+    "location": "Kano, Nigeria",
+    "coordinates": { "lat": 12.00, "lon": 8.52 },
+    "description": "Time maize planting using GPM rainfall forecasts to maximize rainfall benefits.",
+    "difficulty": "easy",
+    "initial_state": {
+      "temperature": 31,
+      "soil_moisture": 55,
+      "crop_health": 60,
+      "livestock_health": 75,
+      "budget": 4200
+    },
+    "datasets": [
+      "GPM",
+      "GLDAS"
+    ],
+    "goal": {
+      "description": "Time maize planting to maximize rainfall benefits"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Soil Fertility Balance in Brazil",
+    "location": "Mato Grosso, Brazil",
+    "coordinates": { "lat": -15.60, "lon": -56.10 },
+    "description": "Apply fertilizer efficiently using soil moisture and vegetation data to boost yield.",
+    "difficulty": "easy",
+    "initial_state": {
+      "temperature": 29,
+      "soil_moisture": 60,
+      "crop_health": 68,
+      "livestock_health": 80,
+      "budget": 6500
+    },
+    "datasets": [
+      "SMAP",
+      "MODIS"
+    ],
+    "goal": {
+      "description": "Apply fertilizer efficiently to raise yield by 10% while reducing cost"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Cold Snap Protection in France's Vineyards",
+    "location": "Bordeaux, France",
+    "coordinates": { "lat": 44.84, "lon": -0.58 },
+    "description": "Minimize frost damage by deploying protective irrigation and frost covers using temperature data.",
+    "difficulty": "medium",
+    "initial_state": {
+      "temperature": 2,
+      "soil_moisture": 70,
+      "crop_health": 50,
+      "livestock_health": 70,
+      "budget": 12000
+    },
+    "datasets": [
+      "MODIS LST",
+      "ECOSTRESS"
+    ],
+    "goal": {
+      "description": "Minimize frost damage by deploying protective irrigation/frost covers"
+    }
+  },
+  {
+    "id": 8,
+    "title": "Drought and Livestock Migration in Ethiopia",
+    "location": "Somali Region, Ethiopia",
+    "coordinates": { "lat": 9.35, "lon": 42.80 },
+    "description": "Relocate livestock to green zones using soil moisture and pasture condition data.",
+    "difficulty": "medium",
+    "initial_state": {
+      "temperature": 37,
+      "soil_moisture": 18,
+      "crop_health": 30,
+      "livestock_health": 45,
+      "budget": 7500
+    },
+    "datasets": [
+      "SMAP",
+      "MODIS NDVI"
+    ],
+    "goal": {
+      "description": "Relocate 80% of livestock to green zones to avoid mass die-off"
+    }
+  },
+  {
+    "id": 9,
+    "title": "Flood Recovery in Pakistan's Sindh Province",
+    "location": "Sindh, Pakistan",
+    "coordinates": { "lat": 24.86, "lon": 67.01 },
+    "description": "Identify safe replanting zones after monsoon flooding using flood maps and land use data.",
+    "difficulty": "medium",
+    "initial_state": {
+      "temperature": 33,
+      "soil_moisture": 95,
+      "crop_health": 20,
+      "livestock_health": 60,
+      "budget": 5800
+    },
+    "datasets": [
+      "MODIS",
+      "Landsat"
+    ],
+    "goal": {
+      "description": "Identify safe replanting zones after monsoon flooding"
+    }
+  },
+  {
+    "id": 10,
+    "title": "Pest Outbreak in Vietnam Rice Fields",
+    "location": "Mekong Delta, Vietnam",
+    "coordinates": { "lat": 10.04, "lon": 105.79 },
+    "description": "Detect early pest outbreak using NDVI anomalies and save crops before widespread damage.",
+    "difficulty": "medium",
+    "initial_state": {
+      "temperature": 30,
+      "soil_moisture": 80,
+      "crop_health": 50,
+      "livestock_health": 80,
+      "budget": 4800
+    },
+    "datasets": [
+      "MODIS NDVI",
+      "ECOSTRESS"
+    ],
+    "goal": {
+      "description": "Detect early pest outbreak using NDVI anomalies & save 70% of crops"
+    }
+  },
+  {
+    "id": 11,
+    "title": "Sustainable Water Use in Arizona",
+    "location": "Arizona Desert, USA",
+    "coordinates": { "lat": 33.45, "lon": -112.07 },
+    "description": "Balance groundwater extraction using GRACE and SMAP data to reduce aquifer depletion.",
+    "difficulty": "medium",
+    "initial_state": {
+      "temperature": 40,
+      "soil_moisture": 15,
+      "crop_health": 45,
+      "livestock_health": 65,
+      "budget": 15000
+    },
+    "datasets": [
+      "GRACE",
+      "SMAP"
+    ],
+    "goal": {
+      "description": "Balance groundwater extraction to reduce aquifer depletion by 25%"
+    }
+  },
+  {
+    "id": 12,
+    "title": "Soil Nutrient Loss in Ukraine Wheat Belt",
+    "location": "Dnipro, Ukraine",
+    "coordinates": { "lat": 48.47, "lon": 35.04 },
+    "description": "Improve soil health using NDVI and soil fertility data while maintaining steady yields.",
+    "difficulty": "medium",
+    "initial_state": {
+      "temperature": 24,
+      "soil_moisture": 50,
+      "crop_health": 65,
+      "livestock_health": 75,
+      "budget": 9200
+    },
+    "datasets": [
+      "MODIS NDVI",
+      "Crop-CASMA"
+    ],
+    "goal": {
+      "description": "Improve soil health while keeping yields steady despite nutrient depletion"
+    }
+  },
+  {
+    "id": 13,
+    "title": "Mega Drought in California",
+    "location": "Central Valley, California, USA",
+    "coordinates": { "lat": 36.75, "lon": -119.77 },
+    "description": "Navigate a 3-year drought using groundwater, soil moisture, and heat stress data to save crops.",
+    "difficulty": "hard",
+    "initial_state": {
+      "temperature": 42,
+      "soil_moisture": 12,
+      "crop_health": 25,
+      "livestock_health": 40,
+      "budget": 25000
+    },
+    "datasets": [
+      "GRACE",
+      "SMAP",
+      "ECOSTRESS"
+    ],
+    "goal": {
+      "description": "Save 60% of crops and maintain farm profits during a 3-year drought"
+    }
+  },
+  {
+    "id": 14,
+    "title": "Cyclone Crop Recovery in Mozambique",
+    "location": "Beira, Mozambique",
+    "coordinates": { "lat": -19.84, "lon": 34.84 },
+    "description": "Replant crops quickly in cyclone-affected zones using flood and land cover change data.",
+    "difficulty": "hard",
+    "initial_state": {
+      "temperature": 28,
+      "soil_moisture": 90,
+      "crop_health": 15,
+      "livestock_health": 55,
+      "budget": 8500
+    },
+    "datasets": [
+      "MODIS",
+      "Landsat",
+      "GPM"
+    ],
+    "goal": {
+      "description": "Replant crops quickly in cyclone-affected zones to restore 70% production"
+    }
+  },
+  {
+    "id": 15,
+    "title": "Heat-Induced Livestock Migration in Australia",
+    "location": "Northern Territory, Australia",
+    "coordinates": { "lat": -12.46, "lon": 130.84 },
+    "description": "Relocate cattle during extreme heatwaves using heat and pasture data to keep herd healthy.",
+    "difficulty": "hard",
+    "initial_state": {
+      "temperature": 45,
+      "soil_moisture": 8,
+      "crop_health": 30,
+      "livestock_health": 35,
+      "budget": 18000
+    },
+    "datasets": [
+      "ECOSTRESS",
+      "MODIS NDVI"
+    ],
+    "goal": {
+      "description": "Relocate cattle during extreme heatwaves and keep 75% herd healthy"
+    }
+  },
+  {
+    "id": 16,
+    "title": "Monsoon Flood & Pest Double Impact in India",
+    "location": "Bihar, India",
+    "coordinates": { "lat": 25.59, "lon": 85.14 },
+    "description": "Manage dual threats of floods and pest outbreaks using multiple NASA datasets.",
+    "difficulty": "hard",
+    "initial_state": {
+      "temperature": 34,
+      "soil_moisture": 88,
+      "crop_health": 35,
+      "livestock_health": 60,
+      "budget": 6800
+    },
+    "datasets": [
+      "MODIS",
+      "NDVI",
+      "GPM"
+    ],
+    "goal": {
+      "description": "Manage dual threats (floods + pest outbreaks) while sustaining 65% yield"
+    }
+  },
+  {
+    "id": 17,
+    "title": "Sea Level Rise in Bangladesh Farmlands",
+    "location": "Coastal Bangladesh",
+    "coordinates": { "lat": 22.36, "lon": 91.80 },
+    "description": "Adapt farming methods to sea level rise using flood, groundwater, and sea level data.",
+    "difficulty": "hard",
+    "initial_state": {
+      "temperature": 31,
+      "soil_moisture": 92,
+      "crop_health": 40,
+      "livestock_health": 65,
+      "budget": 1100
+    },
+    "datasets": [
+      "MODIS",
+      "GRACE",
+      "Sea Level Data"
+    ],
+    "goal": {
+      "description": "Adapt farming methods (salt-tolerant crops, raised beds) to protect 70% farmland"
+    }
+  },
+  {
+    "id": 18,
+    "title": "Climate-Smart Farming Transition in Sub-Saharan Africa",
+    "location": "Ghana, Africa",
+    "coordinates": { "lat": 5.60, "lon": -0.20 },
+    "description": "Shift from monocropping to mixed sustainable farming using comprehensive NASA datasets.",
+    "difficulty": "hard",
+    "initial_state": {
+      "temperature": 33,
+      "soil_moisture": 42,
+      "crop_health": 60,
+      "livestock_health": 70,
+      "budget": 14500
+    },
+    "datasets": [
+      "MODIS NDVI",
+      "ECOSTRESS",
+      "SMAP",
+      "NASA Harvest Data"
+    ],
+    "goal": {
+      "description": "Shift from monocropping to mixed sustainable farming while keeping income stable"
+    }
+  }
+]
